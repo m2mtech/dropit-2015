@@ -13,6 +13,9 @@
 		5B498CE01AAA422900C6636D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B498CDF1AAA422900C6636D /* Images.xcassets */; };
 		5B498CE31AAA422900C6636D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B498CE11AAA422900C6636D /* LaunchScreen.xib */; };
 		5B498CEF1AAA422900C6636D /* DropitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B498CEE1AAA422900C6636D /* DropitTests.swift */; };
+		5B498CFB1AAA429900C6636D /* DropitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B498CFA1AAA429900C6636D /* DropitViewController.swift */; };
+		5B498CFD1AAA480700C6636D /* DropitBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B498CFC1AAA480700C6636D /* DropitBehavior.swift */; };
+		5B498CFF1AAA4F6C00C6636D /* BezierPathsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B498CFE1AAA4F6C00C6636D /* BezierPathsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,10 @@
 		5B498CE81AAA422900C6636D /* DropitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B498CED1AAA422900C6636D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B498CEE1AAA422900C6636D /* DropitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropitTests.swift; sourceTree = "<group>"; };
+		5B498CFA1AAA429900C6636D /* DropitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropitViewController.swift; sourceTree = "<group>"; };
+		5B498CFC1AAA480700C6636D /* DropitBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropitBehavior.swift; sourceTree = "<group>"; };
+		5B498CFE1AAA4F6C00C6636D /* BezierPathsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierPathsView.swift; sourceTree = "<group>"; };
+		5B498D001AAA742C00C6636D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +66,7 @@
 		5B498CCA1AAA422900C6636D = {
 			isa = PBXGroup;
 			children = (
+				5B498D001AAA742C00C6636D /* README.md */,
 				5B498CD51AAA422900C6636D /* Dropit */,
 				5B498CEB1AAA422900C6636D /* DropitTests */,
 				5B498CD41AAA422900C6636D /* Products */,
@@ -77,11 +85,10 @@
 		5B498CD51AAA422900C6636D /* Dropit */ = {
 			isa = PBXGroup;
 			children = (
-				5B498CD81AAA422900C6636D /* AppDelegate.swift */,
-				5B498CDA1AAA422900C6636D /* ViewController.swift */,
+				5B498CFE1AAA4F6C00C6636D /* BezierPathsView.swift */,
+				5B498CFC1AAA480700C6636D /* DropitBehavior.swift */,
+				5B498CFA1AAA429900C6636D /* DropitViewController.swift */,
 				5B498CDC1AAA422900C6636D /* Main.storyboard */,
-				5B498CDF1AAA422900C6636D /* Images.xcassets */,
-				5B498CE11AAA422900C6636D /* LaunchScreen.xib */,
 				5B498CD61AAA422900C6636D /* Supporting Files */,
 			);
 			path = Dropit;
@@ -90,6 +97,10 @@
 		5B498CD61AAA422900C6636D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5B498CD81AAA422900C6636D /* AppDelegate.swift */,
+				5B498CDA1AAA422900C6636D /* ViewController.swift */,
+				5B498CDF1AAA422900C6636D /* Images.xcassets */,
+				5B498CE11AAA422900C6636D /* LaunchScreen.xib */,
 				5B498CD71AAA422900C6636D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,6 +223,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B498CFB1AAA429900C6636D /* DropitViewController.swift in Sources */,
+				5B498CFF1AAA4F6C00C6636D /* BezierPathsView.swift in Sources */,
+				5B498CFD1AAA480700C6636D /* DropitBehavior.swift in Sources */,
 				5B498CDB1AAA422900C6636D /* ViewController.swift in Sources */,
 				5B498CD91AAA422900C6636D /* AppDelegate.swift in Sources */,
 			);
